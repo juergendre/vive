@@ -1,20 +1,39 @@
 body {
-    background-color: #ffbbbb;
+    background-color: #ffffff;
 }
 
 header {
-    background-color: #eee;
     height: 100px;
     padding-left: 20px;
 }
+header .col {
+    margin-left: 20px;
+    background-color: #44dddd;
+}
+
+.logo {
+    width: 80px;
+    margin-top: 20px;
+}
 main {
-    width: 80%;
+    width: 100%;
 }
 footer {
     color: #ddd;
     background-color: #555;
     height: 100px;
     padding-left: 20px;
+}
+.container {
+    width: 90%;
+}
+.row {
+    background-color: #dddd44;
+}
+.col-lg-9, .col-6 {
+    background-color: #44dddd;
+    
+    
 }
 
 .inhalt-box {
@@ -55,13 +74,13 @@ img {
 
 .bg-hell {
     background-color: #ffffff;
-    padding-left: 20px;
+    padding-left: 10px;
     
 }
 .bg-dunkel {
     background-color: #f3f3f3
     ;
-    padding-left: 20px;
+    padding-left: 10px;
     
 }
 .zeile {

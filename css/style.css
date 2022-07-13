@@ -1,22 +1,29 @@
 body {
     background-color: #ffffff;
 }
+.container {
+    width: 98%;
+    background-color: #ddffff;
+    border: 2px solid #ccc;
+}
 
 header {
+    background-color: #ffffff;
     height: 100px;
     padding-left: 20px;
-}
-header .col {
-    margin-left: 20px;
-    background-color: #44dddd;
+    
 }
 
 .logo {
     width: 80px;
     margin-top: 20px;
+    margin-left: 20px;
 }
-main {
-    width: 100%;
+
+#home {
+    display: block;
+    position: relative;
+    top: -200px;
 }
 footer {
     color: #ddd;
@@ -24,53 +31,11 @@ footer {
     height: 100px;
     padding-left: 20px;
 }
-.container {
-    width: 90%;
-}
-.row {
-    background-color: #dddd44;
-}
-.col-lg-9, .col-6 {
-    background-color: #44dddd;
-    
-    
-}
-
-.inhalt-box {
-    display: inline-flex;
-    /* background-color: #dddddd; */
-    width: 48%;
-    height: 95%;
-    margin-top: 10px;
-    margin-left: 5px;
-}
-.inhalt-box-small {
-    display: inline-flex;
-    /* background-color: #dddddd; */
-    width: 38%;
-    height: 95%;
-    margin-top: 10px;
-    margin-left: 5px;
-}
-.inhalt-box-large {
-    display: inline-flex;
-    /* background-color: #dddddd; */
-    width: 58%;
-    height: 95%;
-    margin-top: 10px;
-    margin-left: 5px;
-}
 
 .bild {
-    display: inline-flex;
-    width: 640px;
-    height: 400px;
+    width: 95%;
     background-color: #ade;
 }
-img {
-    width: 100%;
-}
-
 
 .bg-hell {
     background-color: #ffffff;
@@ -78,13 +43,8 @@ img {
     
 }
 .bg-dunkel {
-    background-color: #f3f3f3
-    ;
+    background-color: #f3f3f3;
     padding-left: 10px;
     
 }
-.zeile {
-    display:inline-flex;
-    width: 100%;
-    /* height: 600px; */
-}
+

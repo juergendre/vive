@@ -38,11 +38,6 @@ footer {
     padding-left: 20px;
 }
 
-.bild {
-    width: 95%;
-    /* background-color: #ade; */
-}
-
 .bg-hell {
     background-color: #ffffff;
     padding-left: 10px;
@@ -53,12 +48,23 @@ footer {
     padding-left: 10px;
     
 }
+
+/* #text {
+    order: 3;
+}
+#bild {
+    order: 2;
+} */
+
 aside {
+    padding-top: 20px;
+    border: 10px solid #666;
+}
+aside li {
+    padding-right: 30px;
+}
+.col-lg-3 {
     padding: 20px;
-    margin-left: 20px;
-    
-    
-    border: 1px solid #666;
 }
 
 /* aside:hover {

@@ -3,7 +3,7 @@ body {
 }
 .container {
     width: 98%;
-    background-color: #ddffff;
+    /* background-color: #ddffff; */
     border: 2px solid #ccc;
 }
 
@@ -21,7 +21,7 @@ header {
 }
 
 .col-lg-6 {
-    background-color: #eecccc;
+   /*  background-color: #eecccc; */
     padding: 20px;
     border: 1px solid #666;
 }
@@ -40,7 +40,7 @@ footer {
 
 .bild {
     width: 95%;
-    background-color: #ade;
+    /* background-color: #ade; */
 }
 
 .bg-hell {

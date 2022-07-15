@@ -9,15 +9,16 @@ body {
 
 header {
     background-color: #ffffff;
-    height: 130px;
-    padding-left: 20px;
-    
+    height: 110px;
 }
 
 .logo {
     width: 80px;
     margin-top: 20px;
     margin-left: 20px;
+}
+h1 {
+    
 }
 
 .col-lg-6 {
@@ -57,14 +58,14 @@ footer {
 } */
 
 aside {
-    padding-top: 20px;
     border: 10px solid #666;
 }
 aside li {
     padding-right: 30px;
 }
 .col-lg-3 {
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 /* aside:hover {
@@ -72,3 +73,17 @@ aside li {
     box-shadow: inset 0 0 10px 5px  #666;
 } */
 
+/* ***************** M - E - D - I - A *************** */
+/* screen < lg (992px) */
+@media (max-width: 991.98px) {
+    .respo {
+      font-size: 24px;
+      /* background-color: #aaaaff; */
+    }
+    header {
+        height: 90px;
+    }
+    .col-lg-3 {
+        padding-top: 5px;
+    }
+}

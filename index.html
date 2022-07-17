@@ -26,8 +26,8 @@
     <main class="container">
         <div class="row"><!-- start main/Hauptzeile -->
             <div class="col-lg-9 order-2"><!-- start main/inhalt -->
-
-                <div class="row bg-hell"><!-- start linke zeile #1-->
+                <div id="s1" class="sprung"></div>
+                <div class="row bg-hell bg-verlauf"><!-- start linke zeile #1-->
                     <div class="col-lg-6">
                         <img src="img/kiste.jpg" class="img-fluid" alt="">
                     </div>
@@ -38,7 +38,8 @@
                         </p>
                     </div>
                 </div><!-- ende linke zeile -->
-                <div id="zeile-rev" class="row bg-dunkel"><!-- start linke zeile #2-->
+                <div id="s2" class="sprung"></div>
+                <div class="row bg-dunkel bg-verlauf"><!-- start linke zeile #2-->
                     <div class="col-lg-6 order-lg-2">
                         <img src="img/kiste.jpg" class="img-fluid" alt="">
                     </div>
@@ -49,7 +50,8 @@
                         </p>
                     </div>
                 </div><!-- ende linke zeile -->
-                <div class="row bg-hell"><!-- start linke zeile #3-->
+                <div id="s3" class="sprung"></div>
+                <div class="row bg-hell bg-verlauf"><!-- start linke zeile #3-->
                     <div class="col-lg-6">
                         <img src="img/kiste.jpg" class="img-fluid" alt="">
                     </div>
@@ -60,7 +62,8 @@
                         </p>
                     </div>
                 </div><!-- ende linke zeile -->
-                <div class="row bg-dunkel"><!-- start linke zeile #4-->
+                <div id="s4" class="sprung"></div>
+                <div class="row bg-dunkel bg-verlauf"><!-- start linke zeile #4-->
                     <div class="col-lg-6">
                         <h2>4. Schritt</h2>
                         <p>
@@ -71,6 +74,7 @@
                         <img src="img/kiste.jpg" class="img-fluid" alt="">
                     </div>
                 </div><!-- ende linke zeile -->
+                <div id="s5" class="sprung"></div>
                 <div class="row bg-hell"><!-- start linke zeile #5-->
                     <div class="col-lg-6">
                         <img src="img/kiste.jpg" class="img-fluid" alt="">
@@ -82,6 +86,7 @@
                         </p>
                     </div>
                 </div><!-- ende linke zeile -->
+                <div id="s6" class="sprung"></div>
                 <div class="row bg-dunkel"><!-- start linke zeile #6-->
                     <div class="col-lg-6">
                         <h2>6. Schritt</h2>
@@ -93,6 +98,7 @@
                         <img src="img/kiste.jpg" class="img-fluid" alt="">
                     </div>
                 </div><!-- ende linke zeile -->
+                <div id="s7" class="sprung"></div>
                 <div class="row bg-hell"><!-- start linke zeile #7-->
                     <div class="col-lg-6">
                         <img src="img/kiste.jpg" class="img-fluid" alt="">
@@ -104,6 +110,7 @@
                         </p>
                     </div>
                 </div><!-- ende linke zeile -->
+                <div id="s8" class="sprung"></div>
                 <div class="row bg-dunkel"><!-- start linke zeile #8-->
                     <div class="col-lg-6">
                         <h2>8. Schritt</h2>
@@ -115,6 +122,7 @@
                         <img src="img/kiste.jpg" class="img-fluid" alt="">
                     </div>
                 </div><!-- ende linke zeile -->
+                <div id="s9" class="sprung"></div>
                 <div class="row bg-hell"><!-- start linke zeile #9 *** software ***-->
                     <div class="col-lg-6">
                         <img src="img/kiste.jpg" class="img-fluid" alt="">
@@ -126,6 +134,7 @@
                         </p>
                     </div>
                 </div><!-- ende linke zeile -->
+                <div id="s10" class="sprung"></div>
                 <div class="row bg-dunkel"><!-- start linke zeile #10-->
                     <div class="col-lg-6">
                         <h2>10. Schritt</h2>
@@ -141,30 +150,32 @@
             </div><!-- ende main/inhalt -->
 
             <aside class="col-lg-3 order-1"><!-- start main/nav -->
+                <div class="festbox">
                 <h3>Seitennavigation</h3>
                 <ul>
                     <div  class="d-flex flex-wrap d-lg-block">
-                        <li><a href="#"> 1.link</a></li>
-                        <li><a href="#"> 2.link</a></li>
-                        <li><a href="#"> 3.link</a></li>
-                        <li><a href="#"> 4.link</a></li>
-                        <li><a href="#"> 5.link</a></li>
-                        <li><a href="#"> 6.link</a></li>
-                        <li><a href="#"> 7.link</a></li>
-                        <li><a href="#"> 8.link</a></li>
-                        <li><a href="#"> 9.link</a></li>
-                        <li><a href="#"> 10.link</a></li>
+                        <li><a href="#s1"> 1.link</a></li>
+                        <li><a href="#s2"> 2.link</a></li>
+                        <li><a href="#s3"> 3.link</a></li>
+                        <li><a href="#s4"> 4.link</a></li>
+                        <li><a href="#s5"> 5.link</a></li>
+                        <li><a href="#s6"> 6.link</a></li>
+                        <li><a href="#s7"> 7.link</a></li>
+                        <li><a href="#s8"> 8.link</a></li>
+                        <li><a href="#s9"> 9.link</a></li>
+                        <li><a href="#s10"> 10.link</a></li>
                     </div>
                 </ul>
                 <h3>externe Links</h3>
                 <ul>
                     <div  class="d-flex flex-wrap d-lg-block">
-                        <li><a href="#"> 1.link</a></li>
-                        <li><a href="#"> 2.link</a></li>
-                        <li><a href="#"> 3.link</a></li>
-                        <li><a href="#"> 4.link</a></li>
+                        <li><a href="#" target="_blank"> 1.link</a></li>
+                        <li><a href="#" target="_blank"> 2.link</a></li>
+                        <li><a href="#" target="_blank"> 3.link</a></li>
+                        <li><a href="#" target="_blank"> 4.link</a></li>
                     </div>
                 </ul>
+                </div>
 
             </aside><!-- ende main/nav -->
         </div><!-- ende main/hauptzeile -->

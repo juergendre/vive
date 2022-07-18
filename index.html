@@ -25,8 +25,60 @@
     <!-- start ***** main ***** -->
     <main class="container">
         <div class="row"><!-- start main/Hauptzeile -->
-            <div class="col-lg-9 order-2"><!-- start main/inhalt -->
-                <div id="platz"> </div>
+            <div class="nav-drop ms-3">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Navigation
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#s1">1. Allgemeines</a></li>
+                      <li><a class="dropdown-item" href="#s2">2. Inhalt</a></li>
+                      <li><a class="dropdown-item" href="#s3">3. Controller</a></li>
+                      <li><a class="dropdown-item" href="#s4">4. VR-Brille</a></li>
+                      <li><a class="dropdown-item" href="#s5">5. Linkbox</a></li>
+                      <li><a class="dropdown-item" href="#s6">6. Lighthousetracker</a></li>
+                      <li><a class="dropdown-item" href="#s7">7. LH-Tracker Aufstellung</a></li>
+                      <li><a class="dropdown-item" href="#s8">8. Verkabelung</a></li>
+                      <li><a class="dropdown-item" href="#s9">9. SW / Steam</a></li>
+                      <li><a class="dropdown-item" href="#s10">10. Steam-VR einrichten</a></li>
+                      <li><a class="dropdown-item" href="#s11">11. VR-Anwendungen</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="navigation col-lg-3"><!-- start main/nav -->
+                <div class="festbox">
+                <h5>Seitennavigation</h5>
+                <ul>
+                    <div  class="d-flex flex-wrap d-lg-block">
+                        <li><a href="#s1">1. Allgemein</a></li>
+                        <li><a href="#s2">2. Inhalt</a></li>
+                        <li><a href="#s3">3. Controller</a></li>
+                        <li><a href="#s4">4. VR-Brille</a></li>
+                        <li><a href="#s5">5. Linkbox</a></li>
+                        <li><a href="#s6">6. Lighthousetracker</a></li>
+                        <li><a href="#s7">7. LH-Tracker Aufstellung</a></li>
+                        <li><a href="#s8">8. Verkabelung</a></li>
+                        <li><a href="#s9">9. SW / Steam</a></li>
+                        <li><a href="#s10">10. Steam-VR einrichten</a></li>
+                        <li><a href="#s11">11. VR-Anwendungen</a></li>
+                    </div>
+                </ul>
+                <h5>externe Links</h5>
+                <ul>
+                    <div  class="d-flex flex-wrap d-lg-block">
+                        <li><a href="#" target="_blank"> 1.link</a></li>
+                        <li><a href="#" target="_blank"> 2.link</a></li>
+                        <li><a href="#" target="_blank"> 3.link</a></li>
+                        <li><a href="#" target="_blank"> 4.link</a></li>
+                    </div>
+                </ul>
+                </div>
+
+            </div><!-- ende main/nav -->
+
+
+            <div class="col-lg-9"><!-- start main/inhalt -->
+                <div id="platze"> </div>
                 <div id="s1" class="sprung"></div>
                 <div class="row bg-hell bg-verlauf"><!-- start linke zeile #1-->
                     <div class="col-lg-6">
@@ -174,37 +226,7 @@
 
             </div><!-- ende main/inhalt -->
 
-            <aside class="col-lg-3 order-1"><!-- start main/nav -->
-                <div class="festbox">
-                <h5>Seitennavigation</h5>
-                <ul>
-                    <div  class="d-flex flex-wrap d-lg-block">
-                        <li><a href="#s1">Punkt 1</a></li>
-                        <li><a href="#s2">Punkt 2</a></li>
-                        <li><a href="#s3">Punkt 3</a></li>
-                        <li><a href="#s4">Punkt 4</a></li>
-                        <li><a href="#s5">Punkt 5</a></li>
-                        <li><a href="#s6">Punkt 6</a></li>
-                        <li><a href="#s7">Punkt 7</a></li>
-                        <li><a href="#s8">Punkt 8</a></li>
-                        <li><a href="#s9">Punkt 9</a></li>
-                        <li><a href="#s10">Punkt 10</a></li>
-                        <li><a href="#s11">Punkt 11</a></li>
-                        <li><a href="#s12">Punkt 12</a></li>
-                    </div>
-                </ul>
-                <h5>externe Links</h5>
-                <ul>
-                    <div  class="d-flex flex-wrap d-lg-block">
-                        <li><a href="#" target="_blank"> 1.link</a></li>
-                        <li><a href="#" target="_blank"> 2.link</a></li>
-                        <li><a href="#" target="_blank"> 3.link</a></li>
-                        <li><a href="#" target="_blank"> 4.link</a></li>
-                    </div>
-                </ul>
-                </div>
-
-            </aside><!-- ende main/nav -->
+            
         </div><!-- ende main/hauptzeile -->
 
         
@@ -238,5 +260,9 @@
     <footer>
         <h1>VIVE</h1>
     </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

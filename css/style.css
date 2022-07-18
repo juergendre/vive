@@ -10,7 +10,7 @@ body {
     /* visibility: hidden; */ 
     height: 0px ; 
     position: absolute; 
-    margin-top: -240px;
+    margin-top: -110px;
 }
 
 header {
@@ -59,16 +59,24 @@ footer {
     height: 90px;
 }
 
-.festbox {
-    background-color: #ffffff;
-    position:fixed;
+.navigation {
+    display: none;
 }
-aside {
-    background-color: #ffffff;
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
 }
-aside li {
-    padding-right: 30px;
-    /* font-size: 0.9rem; */
+.navigation li {
+    list-style: none;
+    padding: 1px;
+}
+.navigation a {
+    text-decoration: none;
+    padding: 2px 10px;
+}
+.nav-drop {
+    position: fixed;
 }
 .col-lg-3 {
     padding-left: 20px;
@@ -104,6 +112,12 @@ aside li {
     header {
         height: 110px;
     }
+    .navigation {
+        display: flex;
+    }
+    .nav-drop {
+        display: none;
+    }
     .col-lg-3 {
         padding-top: 20px;
         font-size: 1rem;
@@ -114,6 +128,16 @@ aside li {
         top: 130px;
         padding: 8px 0;
         margin-bottom: 8px ;
+    }
+    .festbox a:hover, 
+    .festbox a:focus {
+        background-color: #333;
+        color: #dddddd;
+        border-radius: 5px;
+    }
+    .festbox a {
+        /* background-color: #dddddd; */
+        color: #333;
     }
     .sprung {
         /* visibility: hidden; */ 

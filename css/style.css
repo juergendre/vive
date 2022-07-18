@@ -54,10 +54,16 @@ footer {
     margin-bottom: 8px ;
 }
 
+.bild-orig:hover {
+    position: absolute;
+    left: 350px;
+    width: 700px;
+}
+
 .festbox {
     background-color: #ffffff;
     position: fixed;
-    top: 80px;
+    top: 130px;
     padding: 8px 0;
     margin-bottom: 8px ;
     border-bottom: 1px solid rgba(33,33,33,0.2);
@@ -90,5 +96,11 @@ aside li {
     }
     .col-lg-3 {
         padding-top: 5px;
+    }
+    .festbox {
+        /* top: 90px; */
+    }
+    .bild-orig:hover {
+        width: 100%;
     }
 }

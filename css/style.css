@@ -10,12 +10,12 @@ body {
     /* visibility: hidden; */ 
     height: 0px ; 
     position: absolute; 
-    margin-top: -100px;
+    margin-top: -240px;
 }
 
 header {
-    background-color: #55ffff;
-    height: 110px;
+    background-color: #ffffff;
+    height: 90px;
 }
 
 .logo {
@@ -23,6 +23,7 @@ header {
     margin-top: 20px;
     margin-left: 20px;
 }
+
 
 
 .col-lg-6 {
@@ -53,30 +54,29 @@ footer {
     padding: 8px;
     margin-bottom: 8px ;
 }
-
-.bild-orig:hover {
-    position: absolute;
-    left: 350px;
-    width: 700px;
+#platz {
+    width: 100%;
+    height: 90px;
 }
 
 .festbox {
     background-color: #ffffff;
-    position: fixed;
-    top: 130px;
-    padding: 8px 0;
-    margin-bottom: 8px ;
-    border-bottom: 1px solid rgba(33,33,33,0.2);
+    position:fixed;
 }
 aside {
     background-color: #ffffff;
 }
 aside li {
     padding-right: 30px;
+    /* font-size: 0.9rem; */
 }
 .col-lg-3 {
-    padding-top: 20px;
     padding-left: 20px;
+    font-size: 0.9rem;
+    
+}
+#test {
+    
 }
 
 /* aside:hover {
@@ -85,22 +85,53 @@ aside li {
 } */
 
 /* ***************** M - E - D - I - A *************** */
-/* screen < lg (992px) */
-@media (max-width: 991.98px) {
+/* screen >= lg (992px) */
+
+
+@media (max-width: 767.88px) {
+    #platz {
+        width: 100%;
+        height: 120px;
+    }
+}
+
+
+@media (min-width: 992px) {
     .respo {
-      font-size: 24px;
+      font-size: 36px;
       /* background-color: #aaaaff; */
     }
     header {
-        height: 90px;
+        height: 110px;
     }
     .col-lg-3 {
-        padding-top: 5px;
+        padding-top: 20px;
+        font-size: 1rem;
     }
     .festbox {
-        /* top: 90px; */
+        background-color: #ffffff;
+        position: fixed;
+        top: 130px;
+        padding: 8px 0;
+        margin-bottom: 8px ;
+    }
+    .sprung {
+        /* visibility: hidden; */ 
+        height: 0px ; 
+        position: absolute; 
+        margin-top: -120px;
     }
     .bild-orig:hover {
-        width: 100%;
+        position: absolute;
+        left: 350px;
+        width: 700px;
+    }
+    #platz {
+        display: none;
+    }
+}
+@media (min-width: 1400px) {
+    .bild-orig:hover {
+        left: 550px;
     }
 }

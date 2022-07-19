@@ -151,8 +151,8 @@ footer {
     .bild-orig:hover {
         position: absolute;
         left: 350px;
-        width: 700px;
-        transition: transform 0.3s;
+        /* width: 700px; */
+        transform: scale(1.1);
     }
     #platz {
         display: none;

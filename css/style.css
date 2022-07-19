@@ -145,10 +145,14 @@ footer {
         position: absolute; 
         margin-top: -120px;
     }
+    .bild-orig{
+        transition: transform 0.3s;
+    }
     .bild-orig:hover {
         position: absolute;
         left: 350px;
         width: 700px;
+        transition: transform 0.3s;
     }
     #platz {
         display: none;

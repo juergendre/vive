@@ -74,10 +74,19 @@ header {
 }
 
 footer {
+    /* display: flex; */
     color: #ddd;
-    background-color: #555;
-    height: 100px;
+    background-color: #212121;
+    
     padding-left: 20px;
+    margin: auto;
+}
+footer ul {
+    display: flex;
+}
+footer li {
+    list-style: none;
+    padding: 10px;
 }
 
 /* bild-zoom verlangsamen */
@@ -131,7 +140,7 @@ footer {
     .festbox a {
         color: #333;
     }
-    
+
     /* anpassung sprung offset für desktop */
     .sprung {
         /* visibility: hidden; */ 

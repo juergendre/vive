@@ -1,9 +1,5 @@
-/* ############### test.html-css START ############## */
+/* CSS für index.html "VR-VIVE" */
 
-/* ############### test.html-css ENDE ############## */
-
-
-/* ############### index.html-css START ############### */
 body {
     background-color: #ffffff;
 }
@@ -29,16 +25,16 @@ header {
     padding: 0;
 }
 
-
 /* Navigation - mobil */
 .nav-drop {
     position: fixed;
     top: 120px;
     z-index: 30;   /* damit nav vor row/col liegt (z-index 20) */
 }
+
 /* Navigation - Desktop */
 .navigation {
-    display: none;
+    display: none;  
 }
 .navigation ul {
     margin: 0;
@@ -55,15 +51,17 @@ header {
 }
 
 /* sprungmarke mit offset für seitennavigation */
-.sprung {
-    /* visibility: hidden; */ 
+.sprung { 
     height: 0px ; 
     position: absolute; 
     margin-top: -92px;
 }
+
+/* row als basis für bild-orig... */
 .row {
-    position: relative; /* als basis für bild-orig... */
+    position: relative; 
 }
+
 /* spalte für Navigation - Desktop */
 .col-lg-3 {
     padding-left: 20px;
@@ -75,6 +73,7 @@ header {
     padding: 20px;
     min-height: 220px;
 }
+
 /* Hintergrund Farbverlauf für Inhalts-Zeilen */
 .bg-verlauf {
     background: linear-gradient(#ffffff, #f3f3f3);
@@ -82,6 +81,7 @@ header {
     margin-bottom: 8px ;
 }
 
+/* footer */
 footer {
     background-color: #212121;
     min-height: 5em;
@@ -99,6 +99,8 @@ footer #ul-footer a:hover {
     padding: 2px 10px;
     border-radius: 5px;
 }
+
+/* Anpassung für Bootstrap-icons für footer */
 .icon-bs {
     font-size: 1.2em;
     background-color: red;
@@ -110,8 +112,6 @@ footer #ul-footer a:hover {
 .icon-bs:hover {
     box-shadow: 0 0 10px yellow inset;
 }
-/*
-
 
 /* nach oben Button */
 .btn-nach-oben {
@@ -136,13 +136,14 @@ footer #ul-footer a:hover {
 }
 
 
+/* ##### media/screenbreite anpassung an Desktop ##### */
 
-/* ##### media/screenbreite ##### */
 @media (min-width: 992px) {
     /* anpassung Seiten-Überschrift */
     .respo {
       font-size: 30px;
     }
+
     /* anpassung header-höhe */
     header {
         height: 110px;
@@ -150,6 +151,7 @@ footer #ul-footer a:hover {
     .logo {
         width: 80px;
     }
+
     /* navigation desktop on, mobil off */
     .navigation {
         display: block;
@@ -178,7 +180,6 @@ footer #ul-footer a:hover {
         background-color: #f3f3f3;
         margin-right: 4px;
         padding: 4px;
-       
     }
     .festbox a:hover, 
     .festbox a:focus {
@@ -192,7 +193,6 @@ footer #ul-footer a:hover {
 
     /* anpassung sprung offset für desktop */
     .sprung {
-        /* visibility: hidden; */ 
         height: 0px ; 
         position: absolute; 
         margin-top: -120px;
